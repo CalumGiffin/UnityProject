@@ -62,7 +62,7 @@ public class Pen : MonoBehaviour
             RestoreRotation();
             canvas.texture.Apply();
 
-            PulseHaptics(0.05f, 0.02f);
+            PulseHaptics(0.15f, 0.10f);
         }
 
         StoreTouchState(pixelPos);
